@@ -45,3 +45,21 @@ console.log(isLoggedInBoolean);
 // "asd" to boolean is true
 // null to boolean is false
 // undefined to boolean is false
+
+
+/*
+******************************************************************************
+*/
+
+let value = 3;
+let negVal = -value;
+console.log(negVal); // -3
+
+
+console.log(1 + 2 + "1"); // 31
+console.log("1" + 2 + 1); // 121
+
+console.log(+true); // 1
+console.log(+false); // 0
+console.log(+"");// 0
+

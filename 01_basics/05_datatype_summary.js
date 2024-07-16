@@ -7,3 +7,8 @@ console.log(id === anotherId); // false
 
 // Reference
 // Array, Object, Function
+
+
+// *******************************
+
+// memory -> 2 types : stack (Primitive) pass by value , heap (Non - Primitive) pass by ref

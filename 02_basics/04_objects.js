@@ -59,3 +59,22 @@ console.log(Object.values(tinderUser)); // [ '123', 'sam', false ]
 console.log(Object.entries(tinderUser)); // [ [ 'id', '123' ], [ 'name', 'sam' ], [ 'isLoggedIn', false ] ]
 
 console.log(tinderUser.hasOwnProperty('abc')); // check the exisitence of property
+
+
+
+// de structuring of Objects
+
+const course = {
+    coursename : "js in hindi",
+    price : "10010",
+    courseInstructor : "Amol"
+}
+// instead of using property like course.courseInstructor, use like below
+const {coursename} = course;
+console.log(coursename);
+const {courseInstructor : instructor} = course;
+console.log(instructor);
+
+
+
+
